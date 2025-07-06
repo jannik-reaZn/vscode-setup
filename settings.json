@@ -1,0 +1,123 @@
+{
+  // vim
+  "vim.leader": "<space>",
+  "editor.lineNumbers": "relative",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "w"],
+      "after": [":", "w", "<CR>"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.moveEditorToNextGroup"]
+      // "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.moveEditorToBelowGroup"]
+      // "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["testing.reRunLastRun"]
+    }
+  ],
+  // settings
+  "window.zoomLevel": 1,
+  "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 10,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.navigationControl.enabled": false,
+  "workbench.tips.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": true,
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "near",
+  "editor.lightbulb.enabled": "on",
+  "editor.hover.enabled": true,
+  "editor.showFoldingControls": "always",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "visible",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.4,
+  "editor.letterSpacing": 0.1,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "git.decorations.enabled": true,
+  "scm.diffDecorations": "all",
+  // "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  // "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "git.confirmSync": false,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "github.copilot.advanced": {},
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+  "splitHTMLAttributes.sortOrder": [
+    [
+      "^v-if",
+      "^v-else",
+      "^v-show",
+      "^v-model",
+      "^v-for",
+      "^:key",
+      "^key",
+      "^v-",
+      "^:",
+      "^@click",
+      "^@",
+      "^id",
+      "^class",
+      "^.*=\""
+    ]
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.exclude": ["**/__init__.py"],
+  "files.exclude": {
+    "**/__pycache__": true
+  }
+}
