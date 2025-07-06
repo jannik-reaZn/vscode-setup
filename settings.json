@@ -78,6 +78,7 @@
   "scm.diffDecorations": "all",
   // "files.autoSave": "afterDelay",
   "breadcrumbs.enabled": false,
+  "terminal.integrated.tabs.enabled": false,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
