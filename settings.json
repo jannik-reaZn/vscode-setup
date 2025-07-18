@@ -56,6 +56,7 @@
   "workbench.startupEditor": "none",
   "workbench.navigationControl.enabled": false,
   "workbench.tips.enabled": false,
+  "workbench.editor.tabSizing": "shrink",
   "editor.minimap.enabled": false,
   "editor.guides.indentation": true,
   "editor.renderLineHighlight": "none",
