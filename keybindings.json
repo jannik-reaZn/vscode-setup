@@ -16,13 +16,20 @@
     "key": "ctrl+k",
     "command": "workbench.action.navigateUp"
   },
-  // {
-  //   "key": "ctrl+j",
-  //   "command": "workbench.action.navigateDown"
-  // },
   {
     "key": "ctrl+j",
     "command": "workbench.action.togglePanel"
+  },
+  // Find in current file with Ctrl+F
+  {
+    "key": "ctrl+f",
+    "command": "actions.find"
+  },
+  // Find in all files with Ctrl+Shift+F
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.findInFiles",
+    "when": "editorTextFocus"
   },
   // Open "Quick Open" with Ctrl+P
   {
