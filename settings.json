@@ -13,27 +13,32 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    // saving
     {
       "before": ["<leader>", "w"],
       "after": [":", "w", "<CR>"]
     },
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
-    },
+    // splitting
     {
       "before": ["<leader>", "s"],
       "commands": ["workbench.action.moveEditorToNextGroup"]
-      // "commands": ["workbench.action.splitEditorRight"]
     },
     {
       "before": ["<leader>", "h"],
       "commands": ["workbench.action.moveEditorToBelowGroup"]
-      // "commands": ["workbench.action.splitEditorDown"]
+    },
+    // testing
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["testing.runCurrentTest"]
     },
     {
       "before": ["<leader>", "l"],
       "commands": ["testing.reRunLastRun"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["testing.debugCurrentTest"]
     }
   ],
   // settings
