@@ -30,7 +30,7 @@
     // testing
     {
       "before": ["<leader>", "t"],
-      "commands": ["testing.runCurrentTest"]
+      "commands": ["testing.runAtCursor"]
     },
     {
       "before": ["<leader>", "l"],
@@ -38,7 +38,7 @@
     },
     {
       "before": ["<leader>", "d"],
-      "commands": ["testing.debugCurrentTest"]
+      "commands": ["testing.debugAtCursor"]
     }
   ],
   // settings
